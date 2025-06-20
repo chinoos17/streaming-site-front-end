@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes - ViewStream</title>
+    <link rel="stylesheet" href="c:\Users\LENOVO\OneDrive\Bureau\projet site de streaming viewstream\css\style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-icon" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo">ViewStream</div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="films.html">Films</a>
+            <a href="series.html">Séries</a>
+            <a href="animes.html">Animes</a>
+            <a href="adultes.html">Adultes</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h1>Animes</h1>
+        <div class="video-grid">
+            <div class="video-item" onclick="redirectToVideo('video5.html')">
+                <img src="assets/images/anime1.jpg" alt="Anime 1">
+                <h3>Anime 1</h3>
+            </div>
+            <div class="video-item" onclick="redirectToVideo('video6.html')">
+                <img src="assets/images/anime2.jpg" alt="Anime 2">
+                <h3>Anime 2</h3>
+            </div>
+            <!-- Ajoutez plus d'animes ici -->
+        </div>
+    </div>
+
+    <script src="c:\Users\LENOVO\OneDrive\Bureau\projet site de streaming viewstream\js\script.js" defer></script>
+
+</body>
+</html>
